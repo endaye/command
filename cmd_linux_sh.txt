@@ -17,6 +17,11 @@ $ du -h
 # 'ls' 第一行显示目录中所有文件的总size，但是不显示文件夹的size;
 $ ls -lh
 
+# Remove a full directory on linux
+# -r, -R, --recursive: remove dirs and their contents recursively
+# -f, --force: ignore nonexistent files and arguments, never prompt 
+$ rm -rf example
+
 ################
 ##### Vim ######
 ################
